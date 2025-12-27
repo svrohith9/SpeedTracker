@@ -2,11 +2,19 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# SpeedTracker
 
-This contains everything you need to run your app locally.
+SpeedTracker is a camera‑based motion analysis app that estimates object speed from live video. It includes a native SwiftUI iOS app with on‑device motion analysis and object detection, plus the original web prototype.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1F6WT3KlbS_Vg1C-cgIiYn1GWVCjvnH7n
+## Usage and permissions
+
+This repository and its contents are **proprietary**. You may not use, copy, modify, distribute, or deploy this software without explicit written permission from the owner.
+
+## Repository standards
+
+- SwiftUI native iOS app lives in `ios-native/`
+- Web prototype lives at the repo root
+- CI builds native iOS on macOS via GitHub Actions
 
 ## Native iOS (SwiftUI)
 
