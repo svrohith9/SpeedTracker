@@ -1,0 +1,7 @@
+{
+  "name": "SpeedTracker Pro",
+  "description": "A professional-grade speed tracking application prototype with simulated live feed, history logging, and configurable settings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
