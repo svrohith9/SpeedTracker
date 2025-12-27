@@ -23,6 +23,7 @@ xcuserdata
 *.xcworkspace
 !ios/App/App.xcodeproj/project.xcworkspace
 !ios-native/SpeedTracker.xcodeproj/project.xcworkspace
+ios-native/SpeedTracker.xcodeproj
 
 # SwiftPM
 .swiftpm
