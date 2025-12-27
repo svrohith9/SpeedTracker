@@ -8,6 +8,20 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1F6WT3KlbS_Vg1C-cgIiYn1GWVCjvnH7n
 
+## Native iOS (SwiftUI)
+
+This repo also includes a full native iOS rewrite in `ios-native/` using SwiftUI and AVFoundation motion analysis.
+
+**Prerequisites:** Xcode 15+, xcodegen (`brew install xcodegen`)
+
+1. Generate the Xcode project:
+   `cd ios-native && xcodegen generate`
+2. Open in Xcode:
+   `open SpeedTracker.xcodeproj`
+3. Select your Team in Signing & Capabilities and run on your iPhone.
+
+Camera permission is already set via `NSCameraUsageDescription`.
+
 ## Run Locally
 
 **Prerequisites:**  Node.js

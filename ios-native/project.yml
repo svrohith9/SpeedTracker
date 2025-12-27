@@ -1,0 +1,29 @@
+name: SpeedTracker
+options:
+  bundleIdPrefix: com.svrohith9
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  MARKETING_VERSION: "1.0.0"
+  CURRENT_PROJECT_VERSION: "1"
+targets:
+  SpeedTracker:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/SpeedTracker
+    resources:
+      - path: Resources
+    settings:
+      INFOPLIST_KEY_NSCameraUsageDescription: "Camera access is required to detect motion speed."
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleDisplayName: SpeedTracker
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    scheme:
+      testTargets: []

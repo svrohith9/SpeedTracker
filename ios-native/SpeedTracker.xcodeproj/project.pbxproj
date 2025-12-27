@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D956A3B3A8D3E714162CBB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637D797746793092EFBA084 /* CameraView.swift */; };
+		259944F0F8E6948B7F229DB3 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B76C7D56CA46FC364DDFF /* HistoryItem.swift */; };
+		363350B9E82531AEF2DCFCAF /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFAA9F8AF264AD48143596 /* CameraPreview.swift */; };
+		39E78955A7DCA990529FA6A4 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0187A3C7653EB97BE1789 /* Haptics.swift */; };
+		3B4974894662909E9D3B6911 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15A13CC6BFA5C2677B3620 /* HistoryView.swift */; };
+		5800934DEF9629368073D057 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A1FEC03DAF502F4E01769 /* SettingsStore.swift */; };
+		76C4B4C3A4160AD3F5F65F7F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6A49A4149E52C6B3CA29E /* RootView.swift */; };
+		A3FC1308F285098B78A22AEC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6799718A2AFE6144E0223ACB /* Settings.swift */; };
+		A6A594A25B60E8BB2EBF8878 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E839D07B772E0CD4A9592368 /* SettingsView.swift */; };
+		CC5EF5B67441873CB1879783 /* SpeedTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322934863052BCAFBF31295 /* SpeedTrackerApp.swift */; };
+		CC8E8238C2C545A69092FC36 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D18ACC226D8D9BD3E348B /* MotionDetector.swift */; };
+		D77897F0BF02F8086AE0062E /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C3D3887CFDD5E898EC1A8 /* HistoryStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056C3D3887CFDD5E898EC1A8 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		2ADFAA9F8AF264AD48143596 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		34A0187A3C7653EB97BE1789 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		455A1FEC03DAF502F4E01769 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		567B76C7D56CA46FC364DDFF /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		6799718A2AFE6144E0223ACB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		69A6A49A4149E52C6B3CA29E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8093398FCFA9F07C88386CB0 /* SpeedTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A15A13CC6BFA5C2677B3620 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B322934863052BCAFBF31295 /* SpeedTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTrackerApp.swift; sourceTree = "<group>"; };
+		E637D797746793092EFBA084 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E839D07B772E0CD4A9592368 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FA4D18ACC226D8D9BD3E348B /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DC9689EF5F4A5DD9922D95A = {
+			isa = PBXGroup;
+			children = (
+				6E034C64F78CD15290778E1A /* SpeedTracker */,
+				6EFE4DD5EB62C1C1995EC48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E034C64F78CD15290778E1A /* SpeedTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B322934863052BCAFBF31295 /* SpeedTrackerApp.swift */,
+				7A8CFB3CD8EA78CA48D470DD /* Models */,
+				B68A0DDE3C0D7A89E90D05E8 /* Services */,
+				D9E8182DE55E291D07D10BD0 /* Views */,
+			);
+			name = SpeedTracker;
+			path = Sources/SpeedTracker;
+			sourceTree = "<group>";
+		};
+		6EFE4DD5EB62C1C1995EC48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8093398FCFA9F07C88386CB0 /* SpeedTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A8CFB3CD8EA78CA48D470DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				567B76C7D56CA46FC364DDFF /* HistoryItem.swift */,
+				6799718A2AFE6144E0223ACB /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B68A0DDE3C0D7A89E90D05E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				34A0187A3C7653EB97BE1789 /* Haptics.swift */,
+				056C3D3887CFDD5E898EC1A8 /* HistoryStore.swift */,
+				FA4D18ACC226D8D9BD3E348B /* MotionDetector.swift */,
+				455A1FEC03DAF502F4E01769 /* SettingsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9E8182DE55E291D07D10BD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ADFAA9F8AF264AD48143596 /* CameraPreview.swift */,
+				E637D797746793092EFBA084 /* CameraView.swift */,
+				9A15A13CC6BFA5C2677B3620 /* HistoryView.swift */,
+				69A6A49A4149E52C6B3CA29E /* RootView.swift */,
+				E839D07B772E0CD4A9592368 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A96172A9EA875B33810C27 /* SpeedTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85758C9166F811DACEA43F5E /* Build configuration list for PBXNativeTarget "SpeedTracker" */;
+			buildPhases = (
+				5B715877B6E93F7629CEEA3C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTracker;
+			packageProductDependencies = (
+			);
+			productName = SpeedTracker;
+			productReference = 8093398FCFA9F07C88386CB0 /* SpeedTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CEFABB412CB8C12EE2B6B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = EC2F7ED0D42575A8F30153CE /* Build configuration list for PBXProject "SpeedTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0DC9689EF5F4A5DD9922D95A;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A96172A9EA875B33810C27 /* SpeedTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B715877B6E93F7629CEEA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363350B9E82531AEF2DCFCAF /* CameraPreview.swift in Sources */,
+				19D956A3B3A8D3E714162CBB /* CameraView.swift in Sources */,
+				39E78955A7DCA990529FA6A4 /* Haptics.swift in Sources */,
+				259944F0F8E6948B7F229DB3 /* HistoryItem.swift in Sources */,
+				D77897F0BF02F8086AE0062E /* HistoryStore.swift in Sources */,
+				3B4974894662909E9D3B6911 /* HistoryView.swift in Sources */,
+				CC8E8238C2C545A69092FC36 /* MotionDetector.swift in Sources */,
+				76C4B4C3A4160AD3F5F65F7F /* RootView.swift in Sources */,
+				A3FC1308F285098B78A22AEC /* Settings.swift in Sources */,
+				5800934DEF9629368073D057 /* SettingsStore.swift in Sources */,
+				A6A594A25B60E8BB2EBF8878 /* SettingsView.swift in Sources */,
+				CC5EF5B67441873CB1879783 /* SpeedTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28A252DE276A141A983238D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F97D8DA157C4A5F83CEF461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3TTC8XGGL;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to detect motion speed.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.svrohith9.SpeedTracker1;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B174BFA518233FF97615CBD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3TTC8XGGL;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to detect motion speed.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.svrohith9.SpeedTracker1;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5F33490E73423C38C78CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85758C9166F811DACEA43F5E /* Build configuration list for PBXNativeTarget "SpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B174BFA518233FF97615CBD0 /* Debug */,
+				8F97D8DA157C4A5F83CEF461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC2F7ED0D42575A8F30153CE /* Build configuration list for PBXProject "SpeedTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A252DE276A141A983238D4 /* Debug */,
+				BC5F33490E73423C38C78CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CEFABB412CB8C12EE2B6B0 /* Project object */;
+}
