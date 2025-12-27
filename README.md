@@ -23,7 +23,7 @@ This repo also includes a full native iOS rewrite in `ios-native/` using SwiftUI
 **Prerequisites:** Xcode 15+, xcodegen (`brew install xcodegen`)
 
 1. Generate the Xcode project:
-   `cd ios-native && xcodegen generate`
+   `cd ios-native && ./scripts/generate_project.sh`
 2. Open in Xcode:
    `open SpeedTracker.xcodeproj`
 3. Select your Team in Signing & Capabilities and run on your iPhone.
